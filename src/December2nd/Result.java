@@ -1,3 +1,5 @@
+package December2nd;
+
 public enum Result {
     WIN(6), DRAW(3), LOSS(0);
     int points;

@@ -1,18 +1,19 @@
+package December1st;
 
 import java.io.File;  // Import the File class
 import java.io.FileNotFoundException;  // Import this class to handle errors
 import java.util.*;
 
 
-public class PrimoDicembre {
+public class December1st {
 
     public static void main(String[] args) {
         List<Integer> folletti = new ArrayList<>();
-        Integer sum = 0;
+        int sum = 0;
         String data;
 
         try {
-            File myObj = new File("input1dicembre.txt");
+            File myObj = new File("src/December1st/input1dicembre.txt");
             Scanner myReader = new Scanner(myObj);
             while (myReader.hasNextLine()) {
                 data = myReader.nextLine();

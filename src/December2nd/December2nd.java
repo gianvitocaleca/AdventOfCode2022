@@ -1,8 +1,10 @@
+package December2nd;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.*;
 
-public class DueDicembre {
+public class December2nd {
     /**
      * Rock paper scissors
      * A = Rock
@@ -33,7 +35,7 @@ public class DueDicembre {
         String data;
 
         try {
-            File myObj = new File("input2dicembre.txt");
+            File myObj = new File("src/December2nd/input2dicembre.txt");
             Scanner myReader = new Scanner(myObj);
             while (myReader.hasNextLine()) {
                 data = myReader.nextLine();
